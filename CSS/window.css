@@ -1,0 +1,96 @@
+/**测试状态网页锁定css*/
+html,body{
+	/* 元素定位 */
+	position:absolute;
+	/* 盒模型 */
+	width:100%;
+	min-width:700px;
+}
+#copyright{
+	/* 元素定位 */
+	margin:0 auto;
+	margin-top:100px;
+	/* 盒模型 */
+	width:600px;
+	height:20px;
+	/* 字体样式 */
+	text-align:center;
+	color:#3AAAF5;
+	font-size:20px;
+}
+#content{
+	/* 元素定位 */
+	margin: 0 auto;
+	/* 盒模型 */
+	width:400px;
+	padding:0 137.5px;
+	padding-top:100px;
+	padding-bottom:120px;
+	/* 盒样式 */
+	background:#EFEFEF;
+	border-radius:0px 0px 2px 2px;
+}
+#error{
+	/* 盒模型 */
+	display:none;
+	/* 字体样式 */
+	color:#EB5046;
+}
+#statusbar{
+	/* 元素定位 */
+	margin: 0 auto;
+	margin-top:100px;
+	/* 盒模型 */
+	width:675px;
+	height:10px;
+	/* 盒样式 */
+	background:#2A89D2;
+	border-radius:2px 2px 0px 0px;
+}
+#titlebar{
+	/* 元素定位 */
+	margin:0 auto;
+	/* 盒模型 */
+	padding:15px;
+	padding-left:60px;
+	width:600px;
+	/* 盒样式 */
+	background:#3AAAF5;
+	
+}
+#title{
+	/* 字体样式 */
+	color:#FFF;
+	font-size:40px;
+}
+#password{
+	/* 盒模型 */
+	height:40px;
+	/* 字体样式 */
+	font-size:28px;
+	/* 盒样式 */
+	border:hidden;
+	border-bottom:2px solid #56B419;
+	background:#EFEFEF;
+	outline:none;
+	-webkit-appearance: none;
+}
+#submit_button{
+	/* 元素定位 */
+	position:relative;
+	left:440px;
+	top:100px;
+	/* 盒模型 */
+	width:80px;
+	/* 字体样式 */
+	color:#3AAAF5;
+	font-size:35px;
+	/* 盒样式 */
+	background:#EFEFEF;
+	border:hidden;
+	-webkit-appearance:none;
+}
+#wrong{
+	/* 盒模型 */
+	display:none;
+}

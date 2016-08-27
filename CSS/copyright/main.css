@@ -1,0 +1,189 @@
+/**关于copyright页面主视图CSS*/
+
+/*Listed in Alphabatical Order*/
+#copyright a:link { 
+color:#3AAAF5; 
+text-decoration:none; 
+} 
+#copyright a:visited { 
+color:#3AAAF5;
+text-decoration:none; 
+} 
+#copyright a:hover { 
+color:#3AAAF5; 
+text-decoration:underline; 
+} 
+#copyright a:active { 
+color:#3AAAF5; 
+text-decoration:underline; 
+} 
+.place_holder{height:140px;}
+#copyright{
+	margin:0 auto;
+	margin-top:50px;
+	/* 盒模型 */
+	width:600px;
+	height:60px;
+	/* 字体样式 */
+	text-align:center;
+	color:#3AAAF5;
+	font-size:19px;
+	line-height:24px;
+}
+#content{
+	/* 元素定位 */
+	position:absolute;
+	top:0px;
+	/* 盒模型 */
+	width:100%;
+	height:auto;
+	min-height:100%;
+	z-index:1;
+	/* 盒样式 */
+	background:#F9F9F9;
+}
+#content::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width: 0px;
+	height: 0px;
+}
+body{
+	/* 元素定位 */
+	position:absolute;
+	/* 盒模型 */
+	width:100%;
+	height:100%;
+	min-width:950px;
+	min-height:650px;
+	font-family:roboto, "Microsoft YaHei", "微软雅黑", "STHeiti ";
+	font-weight:200;
+}
+input, label, select, option, textarea, button, fieldset, legend {
+    font-family:roboto, "Microsoft YaHei", "微软雅黑", "STHeiti ";
+	font-weight:200;
+}
+#layer1{
+	/* 盒模型 */
+	position:relative;
+	top:10px;
+	width:100%;
+	height:40px;
+	padding:20px 0;
+}
+#section{
+	/* 元素定位 */
+	position:relative;
+	top:-6px;
+	left:40px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	font-family:roboto;
+	font-size:36px;
+	color:#FFF;
+}
+.sections{
+	/* 元素定位 */
+	position:relative;
+	left:100px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	color:#FFF;
+	font-family:robotor;
+	/* 盒样式 */
+	cursor:pointer;
+	
+}
+#section2{
+	/* 元素定位 */
+	left:150px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#section3{
+	/* 元素定位 */
+	left:200px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#section4{
+	/* 元素定位 */
+	left:250px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#section5{
+	/* 元素定位 */
+	left:300px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#sectionfolder{
+	/* 元素定位 */
+	position:relative;
+	left:40px;
+	/* 盒模型 */
+	height:40px;
+	/* 盒样式 */
+	cursor:pointer;
+}
+#statusbar{
+	/* 元素定位 */
+	position:relative;
+	/* 盒模型 */
+	width:100%;
+	height:8px;
+	/* 盒样式 */
+	background:#2A89D2;
+	z-index:2;
+}
+#topbar{
+	/* 元素定位 */
+	position:relative;
+	/* 盒模型 */
+	width:100%;
+	height:110px;
+	/* 盒样式 */
+	background:#3AAAF5;
+	z-index:2;
+}
+#userinfo_ur{
+	/* 元素定位 */
+	float:right;
+	position:relative;
+	right:50px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	line-height:40px;
+	font-size:18px;
+	text-align:center;
+	color:#FFF;
+	font-family:roboto;
+}
+
+#report_content{height:340px;width:560px;margin-top:15px;margin-left:80px;background:#FFF;border-radius:4px 4px 4px 4px;box-shadow:0.5px 0.5px 8px #EEE;}
+#report_label{position:relative;left:50px;top:30px;color:#3AAAF5;font-family:robotor;font-size:24px;}
+#report_text{position:relative;margin-left:50px;top:40px;width:460px;font-size:18px;color:#7F7F7F;border:hidden;border-bottom:2px solid #3AAAF5;outline:none;-webkit-appearance:none;}
+#report_submit{float:right;position:relative;top:50px;right:30px;width:90px;height:50px;font-size:25px;line-height:50px;color:#399BEF;border:hidden;-webkit-appearance:none;background:#FFF;cursor:pointer;}
+#clarification{margin-top:160px;margin-left:80px;font-size:20px;color:#7F7F7F;}
+
+#about_pic{display:block;margin:0 auto;margin-top:180px; width:600px;}
+#pro_pic{display:block;margin:0 auto;width:700px;}
+#update_log{margin:0 auto;margin-top:30px;width:850px;padding:30px 30px;background:#FFF;border-radius:4px 4px 4px 4px;box-shadow:0.5px 0.5px 8px #EEE;}
+#update_label{font-size:30px;color:#3AAAF5;}
+.version{color:#3AAAF5;font-size:20px;line-height:30px;height:30px;}
+.normal{font-size:20px;line-height:30px;height:30px;}
+
+.not_bag{margin:0 auto;margin-top:15px;width:700px;background:#FFF;border-radius:4px 4px 4px 4px;box-shadow:0.5px 0.5px 8px #EEE;}
+.not_title{position:relative;left:30px;top:15px;width:570px;overflow:hidden;font-size:24px;}
+.not_fold{position:relative;left:650px;bottom:13px;width:25px;cursor:pointer;}
+.not_content{margin:0 auto;width:640px;padding:20px 30px; background:#FFF;border-radius:4px 4px 4px 4px;font-size:18px;line-height:30px;display:none;}
+.label_q{color:#3AAAF5;font-size:25px;}

@@ -1,0 +1,385 @@
+/**未登录主视图CSS*/
+/**Listed in Alphabatical Order*/
+#bighead{
+	/* 元素定位 */
+	position:relative;
+	top:60px;
+	right:195px;
+	/* 盒模型 */
+	height:60px;
+	width:60px;
+	/* 盒样式 */
+	border-radius:30px 30px 30px 30px;
+}
+#block{
+	/* 元素定位 */
+	position:relative;
+	left:79px;
+	bottom:5px;
+	/* 盒模型 */
+	width:80px;
+	height:5px;
+	/* 盒样式 */
+	background:#FEF98D;
+	z-index:2;
+}
+#copyright a:link { 
+color:#3AAAF5; 
+text-decoration:none; 
+} 
+#copyright a:visited { 
+color:#3AAAF5;
+text-decoration:none; 
+} 
+#copyright a:hover { 
+color:#3AAAF5; 
+text-decoration:underline; 
+} 
+#copyright a:active { 
+color:#3AAAF5; 
+text-decoration:underline; 
+} 
+#copyright{
+	margin:0 auto;
+	margin-top:100px;
+	/* 盒模型 */
+	width:600px;
+	height:60px;
+	/* 字体样式 */
+	text-align:center;
+	color:#3AAAF5;
+	font-size:19px;
+	line-height:24px;
+}
+#content{
+	/* 元素定位 */
+	position:absolute;
+	top:0px;
+	/* 盒模型 */
+	width:100%;
+	height:auto;
+	min-height:100%;
+	z-index:1;
+	/* 盒样式 */
+	background:#F9F9F9;
+}
+#content::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width: 0px;
+	height: 0px;
+}
+#donotexist{
+	/* 元素定位 */
+	position:relative;
+	top:70px;
+	left:50px;
+	/* 盒模型 */
+	display:none;
+	/* 字体样式 */
+	color:#EB5046;
+}
+#forgot{
+	/* 元素定位 */
+	left:48px;
+	top:300px;
+	position:absolute;
+	/* 盒模型 */
+	width:100px;
+	/* 字体样式 */
+	font-size:22px;
+	color:#3AAAF5;
+	/* 盒样式 */
+	cursor:pointer;
+}
+#grey{
+	/* 元素定位 */
+	position:fixed;
+	/* 盒模型 */
+	display:none;
+	z-index:4;
+	width:100%;
+	height:100%;
+	/* 盒样式 */
+	background:#999;
+	opacity:0.3;
+}
+body{
+	/* 元素定位 */
+	position:absolute;
+	/* 盒模型 */
+	width:100%;
+	height:100%;
+	min-width:950px;
+	min-height:650px;
+	font-family:roboto, "Microsoft YaHei", "微软雅黑", "STHeiti ";
+	font-weight:200;
+}
+input, label, select, option, textarea, button, fieldset, legend {
+    font-family:roboto, "Microsoft YaHei", "微软雅黑", "STHeiti ";
+	font-weight:200;
+}
+#layer1{
+	/* 盒模型 */
+	width:100%;
+	height:40px;
+	padding:20px 0;
+}
+#layer2{
+	/* 盒模型 */
+	width:100%;
+	height:40px;
+}
+#login_window{
+	/* 元素定位 */
+	position: absolute; left: 0; top: 0; right: 0; bottom: 0;
+    margin: auto;
+	/* 盒模型 */
+	display:none;
+	width:350px;
+	height:350px;
+	z-index:5;
+	/* 盒样式 */
+	background:#FFF;
+	border-radius: 2px 2px 2px 2px;
+}
+#login_title{
+	/* 元素定位 */
+	position:relative;
+	left:45px;
+	top:30px;
+	/* 字体样式 */
+	font-family:roboto;
+	font-size:40px;
+	color:#3AAAF5;
+}
+#postnew{
+	/* 元素定位 */
+	float:right;
+	position:fixed;
+	right:60px;
+	bottom:50px;
+	/* 盒模型 */
+	height:54px;
+	width:54px;
+	/* 盒样式 */
+	border-radius:100%;
+	background:#2A97F4;
+	cursor:pointer;
+	z-index:2;
+	box-shadow:0.5px 0.5px 4px #999;
+}
+#postplus{
+	display:inline-block;
+	width:54px;
+	line-height:54px;
+	height:54px;
+	color:#FFF;
+	font-size:39px;
+	text-align:center;
+	-webkit-text-size-adjust:none;
+}
+#inputusername{
+	/* 元素定位 */
+	position:relative;
+	top:70px;
+	margin:0 auto;
+	/* 盒模型 */
+	width:250px;
+	height:30px;
+	display:block;
+	/* 字体样式 */
+	font-size:18px;
+	/* 盒样式 */
+	border:hidden;
+	border-bottom:1px solid #A9A9A9;
+	outline:none;
+	-webkit-appearance: none;
+}
+#inputpassword{
+	/* 元素定位 */
+	position:relative;
+	top:110px;
+	margin:0 auto;
+	/* 盒模型 */
+	display:block;
+	width:250px;
+	height:30px;
+	/* 字体样式 */
+	font-size:18px;
+	/* 盒样式 */
+	border:hidden;
+	border-bottom:1px solid #A9A9A9;
+	outline:none;
+	-webkit-appearance: none;
+}
+#inputusername:focus{border-bottom:1px solid #3AAAF5}
+#inputpassword:focus{border-bottom:1px solid #3AAAF5}
+#inputsubmit{
+	/* 元素定位 */
+	left:245px;
+	top:297px;
+	position:absolute;
+	/* 盒模型 */
+	width:80px;
+	/* 字体样式 */
+	font-size:22px;
+	color:#3AAAF5;
+	/* 盒样式 */
+	background:#FFF;
+	border:hidden;
+	-webkit-appearance:none;
+	cursor:pointer;
+}
+#section{
+	/* 元素定位 */
+	position:relative;
+	top:-6px;
+	left:40px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	font-family:roboto;
+	font-size:36px;
+	color:#FFF;
+}
+.sections{
+	/* 元素定位 */
+	position:relative;
+	left:100px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	text-align:center;
+	line-height:40px;
+	font-size:22px;
+	color:#FFF;
+	font-family:robotor;
+	/* 盒样式 */
+	cursor:pointer;
+}
+#section2{
+	/* 元素定位 */
+	left:150px;
+	/* 字体样式 */
+	color:#BDE3FC;
+}
+#section3{
+	/* 元素定位 */
+	left:200px;
+	/* 字体样式 */
+	color:#BDE3FC;
+}
+#section4{
+	/* 元素定位 */
+	left:250px;
+	/* 字体样式 */
+	color:#BDE3FC;
+}
+#sectionfolder{
+	/* 元素定位 */
+	position:relative;
+	left:40px;
+	/* 盒模型 */
+	height:40px;
+	/* 盒样式 */
+	cursor:pointer;
+}
+#section_chooser{
+	/* 元素定位 */
+	position:absolute;
+	top:25px;
+	left:79px;
+	/* 盒模型 */
+	display:none;
+	width:220px;
+	height:320px;
+	/* 盒样式 */
+	background:#FFF;
+	box-shadow:0.5px 0.5px 8px #CCCCCC;
+	z-index:3;
+	border-radius:2px 2px 2px 2px;
+}
+.section_chooser_item{
+	/* 元素定位 */
+	position:relative;
+	left:25px;
+	top:35px;
+	/* 盒模型 */
+	width:180px;
+	/* 字体样式 */
+	font-size:22px;
+	font-family:robotor;
+	color:#7F7F7F;
+	/* 盒样式 */
+	cursor:pointer;
+}
+#section_chooser_item1{
+	/* 字体样式 */
+	color:#5DAEF2;
+}
+#section_chooser_item2{
+	/* 元素定位 */
+	top:63px;
+}
+#section_chooser_item3{
+	/* 元素定位 */
+	top:91px;
+}
+#section_chooser_item4{
+	/* 元素定位 */
+	top:119px;
+}
+#section_chooser_item5{
+	/* 元素定位 */
+	top:147px;
+}
+#statusbar{
+	/* 元素定位 */
+	position:relative;
+	/* 盒模型 */
+	width:100%;
+	height:8px;
+	/* 盒样式 */
+	background:#2A89D2;
+	z-index:2;
+}
+#topbar{
+	/* 元素定位 */
+	position:relative;
+	/* 盒模型 */
+	width:100%;
+	height:130px;
+	/* 盒样式 */
+	background:#3AAAF5;
+	z-index:2;
+}
+#userinfo_ur{
+	/* 元素定位 */
+	float:right;
+	position:relative;
+	right:50px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	line-height:40px;
+	font-size:18px;
+	text-align:center;
+	color:#FFF;
+	font-family:roboto;
+	/* 盒样式 */
+	cursor:pointer;
+}
+#userinfo_banner_o{
+	/* 元素定位 */
+	float:right;
+	position:relative;
+	right:50px;
+	top:5px;
+	/* 盒模型 */
+	height:30px;
+	/* 盒样式 */
+	cursor:pointer;
+}

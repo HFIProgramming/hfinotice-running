@@ -1,0 +1,28 @@
+/**Lessons CSS*/
+#section_chooser_item1{color:#7F7F7F;}
+#section_chooser_item2{color:#5DAEF2;}
+#daychooser{position:absolute;top:180px;left:100px;width:300px;height:380px;background:#FFF;box-shadow:0.5px 0.5px 8px #EEE;border-radius:2px 2px 2px 2px;}
+#daychooser p{margin-left:30px;width:50px;line-height:70px;text-align:center;color:#888;font-size:25px;cursor:pointer;}
+#monday{margin-top:10px;}
+.line{margin-left:30px;height:1px;width:270px;background:#EEE;}
+#lesson_displayer{position:absolute;top:180px;left:420px;width:250px;height:380px;background:#FFF;box-shadow:0.5px 0.5px 8px #EEE;border-radius:2px 2px 2px 2px;}
+#lesson_content{margin-left:30px;margin-top:25px;color:#888;font-size:25px;line-height:40px;}
+#download_junior_senior{
+	position:absolute;
+	top:0;left:0;right:0;
+	margin:0 auto;
+	top:250px;
+	width:700px;
+	background:#FFF;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:0.5px 0.5px 8px #EEE;
+	padding:30px 30px;
+	font-size:30px;
+	color:#7F7F7F;
+	line-height:50px;
+	cursor:pointer;
+}
+#download_junior_senior span{
+	color:#3AAAF5;
+	font-size:35px;
+}

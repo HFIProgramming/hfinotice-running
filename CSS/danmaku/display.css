@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+body {
+    background: url("/images/danmaku_background.jpg");
+	-moz-background-size:100% 100%;  
+    background-size:100% 100%; 
+	font-family:robotor;
+}
+
+#dm-info {
+    padding: 10px;
+    position: absolute;
+    color: #888888;
+    background-color: rgba(255, 255, 255, 0.2);
+    font: 22px roboto;
+}

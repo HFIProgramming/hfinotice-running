@@ -1,0 +1,25 @@
+/**homework CSS*/
+#section_chooser_item1{color:#7F7F7F;}
+#section_chooser_item2{color:#5DAEF2;}
+.line{position:relative;right:20px;margin-top:15px;height:1px;width:540px;;background:#DDD;}
+.displayer{margin-top:50px;margin-left:100px;width:500px;padding:20px 20px;background:#FFF;box-shadow:0.5px 0.5px 8px #EEE;border-radius:2px 2px 2px 2px;}
+.relative_date{font-family:robotor;font-size:35px;color:#3A9BEF}
+.actual_date{margin-left:2px;margin-top:5px;font-size:20px;}
+.homework{margin-top:20px;width:100%;font-size:20px;line-height:35px;color:#888; word-wrap:break-word;}
+#more{margin-left:100px;margin-top:30px;width:500px;padding:15px 20px;font-size:20px;color:#888;text-align:center;background:#FFF;box-shadow:0.5px 0.5px 8px #EEE;border-radius:2px 2px 2px 2px;cursor:pointer;}
+#place_holder{height:130px;}
+
+#new_homework{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:600px;height:400px;background:#FFF;z-index:5;display:none;border-radius:2px 2px 2px 2px;}
+#hw_label{margin-top:30px;margin-left:30px;color:#7F7F7F;font-size:25px;}
+.hw_line{margin-top:25px;height:1px;width:600px;;background:#DDD;}
+#hw_content_label{margin-left:30px;margin-top:30px;color:#A6CEB7;font-size:20px;font-family:robotor;}
+#hw_content{position:relative;bottom:26.5px;margin-left:140px;width:410px;font-size:20px;color:#7F7F7F;border:hidden;border-bottom:2px solid #A6CEB7;outline:none;-webkit-appearance:none;}
+#hw_content::-webkit-scrollbar{-webkit-appearance: none;background-color:rgba(0,0,0, .15);width: 8px;height: 8px;}
+#hw_content::-webkit-scrollbar-thumb{border-radius: 0;background-color:#999;}
+#hw_submit{float:right;position:relative;right:40px;width:80px;height:50px;font-size:20px;line-height:50px;color:#399BEF;border:hidden;-webkit-appearance:none;background:#FFF;cursor:pointer;}
+.edit{float:right;position:relative;bottom:90px;color:#7F7F7F;cursor:pointer;}
+#edit_homework{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;width:600px;height:400px;background:#FFF;z-index:5;display:none;border-radius:2px 2px 2px 2px;}
+#delete{float:right;position:relative;right:120px;top:2px;width:60px;height:50px;font-size:20px;line-height:50px;color:#399BEF;border:hidden;background:#FFF;cursor:pointer;}
+#hw_content_e{position:relative;bottom:26.5px;margin-left:140px;width:410px;font-size:20px;color:#7F7F7F;border:hidden;border-bottom:2px solid #A6CEB7;outline:none;-webkit-appearance:none;}
+#hw_content_e::-webkit-scrollbar{-webkit-appearance: none;background-color: rgba(0,0,0, .15);width: 8px;height: 8px;}
+#hw_content_e::-webkit-scrollbar-thumb{border-radius: 0;background-color:#999;}

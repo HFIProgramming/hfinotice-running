@@ -1,0 +1,14 @@
+name: codeigniter
+version: 2
+handle:
+- compress:  if ( out_header["Content-type"]=="text/css" ) compress
+- compress:  if ( out_header["Content-type"]=="text/javascript" ) compress
+- compress:  if ( out_header["Content-type"]=="application/javascript" ) compress
+#cron:
+#- description: SAE database backup
+#  url: /autocopy/db_backup.php
+#  schedule: every day of month 00:01
+handle:
+- hostaccess: if( path ~ "/autocopy/db_backup.php" ) allow "127.0.0.1 10.0.0.0/8"
+handle:
+  - rewrite: if(!is_dir() && !is_file() && path~"/") goto "/index.php/%{QUERY_STRING}"

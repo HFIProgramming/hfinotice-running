@@ -1,0 +1,6 @@
+/**外接字体*/
+@font-face{font-family:'robotor';src:url(../fonts/robotor.woff);font-style:normal; font-weight:normal}
+*{margin:0;}
+
+@font-face{font-family:'roboto';src:url(../fonts/roboto.woff);font-style:normal; font-weight:normal}
+*{margin:0;}

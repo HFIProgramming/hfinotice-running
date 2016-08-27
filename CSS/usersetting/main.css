@@ -1,0 +1,197 @@
+/** Usersetting主视图CSS*/
+
+/*Listed in Alphabatical Order*/
+#block{
+	/* 元素定位 */
+	position:relative;
+	left:90px;
+	bottom:5px;
+	/* 盒模型 */
+	width:154.5px;
+	height:5px;
+	/* 盒样式 */
+	background:#FFF;
+	z-index:2;
+}
+#copyright{
+	margin:0 auto;
+	margin-top:60px;
+	/* 盒模型 */
+	width:600px;
+	height:60px;
+	/* 字体样式 */
+	text-align:center;
+	color:#3AAAF5;
+	font-size:19px;
+	line-height:24px;
+}
+#copyright a:link { 
+color:#3AAAF5; 
+text-decoration:none; 
+} 
+#copyright a:visited { 
+color:#3AAAF5;
+text-decoration:none; 
+} 
+#copyright a:hover { 
+color:#3AAAF5; 
+text-decoration:underline; 
+} 
+#copyright a:active { 
+color:#3AAAF5; 
+text-decoration:underline; 
+} 
+#content{
+	/* 元素定位 */
+	position:absolute;
+	top:0px;
+	/* 盒模型 */
+	width:100%;
+	height:auto;
+	min-height:100%;
+	z-index:1;
+	/* 盒样式 */
+	background:#F9F9F9;
+}
+#content::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width: 0px;
+	height: 0px;
+}
+#grey{
+	/* 元素定位 */
+	position:fixed;
+	/* 盒模型 */
+	display:none;
+	z-index:4;
+	width:100%;
+	height:100%;
+	/* 盒样式 */
+	background:#999;
+	opacity:0.3;
+}
+body{
+	/* 元素定位 */
+	position:absolute;
+	/* 盒模型 */
+	width:100%;
+	height:100%;
+	min-width:950px;
+	min-height:650px;
+	font-family:roboto, "Microsoft YaHei", "微软雅黑", "STHeiti ";
+	font-weight:200;
+}
+input, label, select, option, textarea, button, fieldset, legend {
+    font-family:roboto, "Microsoft YaHei", "微软雅黑", "STHeiti ";
+	font-weight:200;
+}
+#layer1{
+	/* 盒模型 */
+	width:100%;
+	height:40px;
+	padding:20px 0;
+}
+#layer2{
+	/* 盒模型 */
+	margin-top:5px;
+	width:100%;
+	height:35px;
+}
+#section{
+	/* 元素定位 */
+	position:relative;
+	top:-6px;
+	left:40px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	font-family:roboto;
+	font-size:36px;
+	color:#FFF;
+}
+.sections{
+	/* 元素定位 */
+	position:relative;
+	left:100px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	color:#FFF;
+	font-family:robotor;
+	/* 盒样式 */
+	cursor:pointer;
+	
+}
+#section2{
+	/* 元素定位 */
+	left:150px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#section3{
+	/* 元素定位 */
+	left:200px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#section4{
+	/* 元素定位 */
+	left:250px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#section5{
+	/* 元素定位 */
+	left:300px;
+	/* 字体样式 */
+	color:#F7D0DE;
+}
+#sectionfolder{
+	/* 元素定位 */
+	position:relative;
+	left:40px;
+	/* 盒模型 */
+	height:40px;
+	/* 盒样式 */
+	cursor:pointer;
+}
+#statusbar{
+	/* 元素定位 */
+	position:relative;
+	/* 盒模型 */
+	width:100%;
+	height:8px;
+	/* 盒样式 */
+	background:#D0829D;
+	z-index:2;
+}
+#topbar{
+	/* 元素定位 */
+	position:relative;
+	/* 盒模型 */
+	width:100%;
+	height:130px;
+	/* 盒样式 */
+	background:#EF97B4;
+	z-index:2;
+}
+#userinfo_ur{
+	/* 元素定位 */
+	float:right;
+	position:relative;
+	right:50px;
+	/* 盒模型 */
+	display:inline-block;
+	height:40px;
+	/* 字体样式 */
+	line-height:40px;
+	font-size:18px;
+	text-align:center;
+	color:#FFF;
+	font-family:roboto;
+}
